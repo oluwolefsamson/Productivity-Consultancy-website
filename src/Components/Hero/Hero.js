@@ -8,7 +8,7 @@ const Hero = () => {
         <img src='./hero-img.jpg' alt='img'/>
       </div>
 
-      <div className='hero-text'>
+      <div className='hero-text poppins-regular'>
           <span>PRODUCTIVITY & PROFICIENCY PROJECTS – NIGERIA</span>
           <span>(Empowering Technocrats & Bureaucrats)</span>
         </div>

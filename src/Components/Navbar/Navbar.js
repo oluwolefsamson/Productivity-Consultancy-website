@@ -17,7 +17,7 @@ const Navbar = () => {
    
 
     return (
-        <nav className='nav'>
+        <nav className='nav poppins-regular'>
             <a href='#' className='nav_brand'><img src='./logo.png' /></a>
             <ul className={active}>
                 <li className='nav_item'><a href='#' className='nav_link'>Home</a></li>

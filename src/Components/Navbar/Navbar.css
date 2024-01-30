@@ -76,15 +76,19 @@ a {
 
 @media screen and (max-width: 768px) {
 
+    .nav {
+        height: 80px;
+    }
+
     .nav_toggler {
         display: block;
     }
     .nav_menu {
         position: fixed;
-        top: 7vh;
-        right: 0;
+        top: 9vh;
+        right: 10px;
         width: 50%;
-        height: 93vh;
+        height: 40vh;
         background: rgb(113, 117, 124);
         flex-direction: column;
         transform: translateX(100%);
@@ -92,6 +96,14 @@ a {
         z-index: 100;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .contact {
+        display: none;
+    }
+}
+
+
 
 .nav_active {
     transform: translateX(0);
