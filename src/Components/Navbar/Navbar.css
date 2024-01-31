@@ -28,8 +28,8 @@ a {
     justify-content: space-around;
     height: 15vh;
     background: rgb(52, 52, 53);
-    margin-bottom: 0.5rem;
     z-index: 100;
+    position: relative;
 }
 
 .nav_brand img {

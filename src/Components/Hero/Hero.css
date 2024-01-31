@@ -1,6 +1,7 @@
 .h-container {
    height: fit-content;
    z-index: 1;
+   border-top: 2px yellowgreen solid;
     
 }
 
@@ -56,7 +57,7 @@
 
 @media screen and (max-width: 430px) {
     .hero-text {
-        margin-left: 3.5rem;
+        margin-left: 8rem;
         width: 60%;
     }
 
