@@ -1,10 +1,14 @@
+.about-card {
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
 .aboutcard-content {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     gap: 1rem;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+   
    
 }
 
@@ -95,6 +99,8 @@
 
 
 @media (max-width: 640px) {
+
+    
     .aboutcard-content {
         display: flex;
         flex-direction: column;

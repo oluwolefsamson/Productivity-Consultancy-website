@@ -44,8 +44,8 @@ const About = () => {
      data-aos-duration="3000">
 
         <div className="flexColStart v-right">
-            <span className='greenText'>About Us</span>
-            <span className='primaryText'>The Values We Offer to You</span>
+            <span className='primaryText'>About Us</span>
+            <span className='greenText'>The Values We Offer to You</span>
             <span className='secondaryText'>PPP’ Nigeria is a reasearch, documentation and summary
              institution, a consortium of public service valuers</span>
 

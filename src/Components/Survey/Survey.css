@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 4rem 2rem;
+    margin: 8rem 2rem;
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -17,10 +17,14 @@
      
 }
 
+.s-container .left-side span:nth-child(1) {
+    line-height: 25px;
+}
+
 
 .s-container .left-side span:nth-child(2) {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 13px;
+    line-height: 20px;
 }
 
 
@@ -57,7 +61,12 @@
 }
 
 @media screen and (max-width: 430px) {
+
+    .s-container {
+        margin-top: 0;
+    }
     .s-container .right-side>img {
         height: 20rem;
     }
+
 }

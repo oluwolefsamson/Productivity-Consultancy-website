@@ -86,15 +86,17 @@ a {
     }
     .nav_menu {
         position: fixed;
-        top: 9vh;
-        right: 10px;
+        top: 10vh;
+        right: 0;
         width: 50%;
         height: 40vh;
-        background: rgb(113, 117, 124);
+        background: rgb(55, 55, 56);
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.5s ease-in;
         z-index: 100;
+        border-radius: 10px;
+        border: 2px solid yellowgreen;
     }
 }
 

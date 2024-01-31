@@ -1,10 +1,15 @@
-.v-container{
-    gap: 2rem;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 4rem;
+.v-wrapper {
     background-color:  #eeeeff;
     border-top: 2px solid yellowgreen;
+    gap: 2rem;
+}
+
+.v-container{
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    
+    
     
     
 }
@@ -35,7 +40,7 @@
 
 .v-right span:nth-child(3) {
     line-height: 2rem;
-    font-size: medium;
+    font-size: small;
 }
 .accordion {
     margin-top: 2rem;
