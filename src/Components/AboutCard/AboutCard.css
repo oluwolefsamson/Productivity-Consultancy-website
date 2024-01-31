@@ -1,0 +1,106 @@
+.aboutcard-content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+   
+}
+
+.aboutcard-content .introduction {
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(53, 42, 207, 0.3);
+}
+
+.introduction span:nth-child(1) {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    font-size: large;
+    color: yellowgreen;
+    font-weight: 800;
+    height: fit-content;
+}
+
+.introduction span:nth-child(2) {
+    padding: 20px;
+    line-height: 1.5rem;
+    color: rgb(140 139 139);
+    font-size: 1rem;
+}
+
+.aboutcard-content .our-vision {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 20px;
+    background-color: #fff;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px rgba(53, 42, 207, 0.3);
+}
+
+.our-vision span:nth-child(1) {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    font-size: large;
+    color: yellowgreen;
+    font-weight: 800;
+}
+
+.our-vision span:nth-child(2) {
+    padding: 20px;
+    line-height: 1.5rem;
+    color: rgb(140 139 139);
+    font-size: 1rem;
+}
+
+.aboutcard-content .our-mission {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 20px;
+    background-color: #fff;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px rgba(53, 42, 207, 0.3);
+}
+
+.our-mission span:nth-child(1) {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    font-size: large;
+    color: yellowgreen;
+    font-weight: 800;
+}
+
+.our-mission span:nth-child(2) {
+    padding: 20px;
+    line-height: 1.5rem;
+    color: rgb(140 139 139);
+    font-size: 1rem;
+}
+
+
+
+@media (max-width: 640px) {
+    .aboutcard-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 0;
+    }
+
+   
+}
