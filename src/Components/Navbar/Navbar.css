@@ -29,7 +29,8 @@ a {
     height: 15vh;
     background: rgb(52, 52, 53);
     z-index: 100;
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 .nav_brand img {

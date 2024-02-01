@@ -37,6 +37,24 @@
     border-radius: 10px;
 }
 
+.survey-button {
+    display: flex;
+    background: rgb(78, 168, 42);
+    border-radius: 10px;
+    height: 5vh;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(150, 145, 145, 0.2);
+    
+}
+
+.survey-button span {
+    color: white;
+    font-size: small;
+}
+
 
 @media screen and (max-width: 1024px) {
     .s-container .right-side>img {
@@ -64,9 +82,14 @@
 
     .s-container {
         margin-top: 0;
+        margin-bottom: 2rem;
     }
     .s-container .right-side>img {
         height: 20rem;
+    }
+
+    .survey-button{
+        height: 3vh;
     }
 
 }

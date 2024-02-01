@@ -25,7 +25,10 @@ const Survey = () => {
             development. In the creating and sustaining an environment which fosters strong and 
             equitable development and an essential complement to sound economic policies.
 
-</span>
+            </span>
+            <div className='survey-button'>
+                <span>Read More</span>
+            </div>
         </div>
 
         {/* right side */}

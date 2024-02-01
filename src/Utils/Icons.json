@@ -1,0 +1,25 @@
+[
+    {
+      "name": "PRESIDENT BOLA AHMED TINUBU",
+      "position": "President of Nigeria",
+      "image": "./president.jpg"
+    },
+    {
+      "name": "MR GEORGE AKUME",
+      "position": "SGF",
+      "image": "./george.jpg"
+    },
+    {
+      "name": "MRS FOLASADE ESAN",
+      "position": "HOCSF",
+      "image": "./folashade.jpg"
+    },
+
+    {
+      "name": "STEVE ORONSAYE",
+      "position": "Ex, HOCSF",
+      "image": "./steve.jpg"
+  }
+
+   
+  ]

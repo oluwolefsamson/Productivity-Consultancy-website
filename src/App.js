@@ -6,6 +6,7 @@ import Company from './Components/Company/Company';
 import AboutCard from './Components/AboutCard/AboutCard';
 import Survey from './Components/Survey/Survey';
 import Management from './Components/Management/Management';
+import Icons from './Components/Icons/Icons';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       < About />
       < AboutCard />
       < Survey />
-      < Management />
+      
+      < Icons />
+      < Management /> 
     </>
   );
 }

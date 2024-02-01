@@ -48,14 +48,24 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .h-container {
+        padding-top: 3rem;
+    }
     .hero-text {
         margin-top: -15rem;
         margin-left: 2rem;
         z-index: 1;
     }
+
+
 }
 
 @media screen and (max-width: 430px) {
+
+    .h-container {
+        padding-top: 9rem;
+    }
     .hero-text {
         margin-left: 8rem;
         width: 60%;
