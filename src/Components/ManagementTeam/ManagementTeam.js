@@ -21,8 +21,8 @@ const ManagementTeam = () => {
 
   return (
     <section className='paddings innerWidth m-container'>
-      <span className='primaryText'>OFFICIAL MANAGEMENT</span><br />
-      <span className='greenText' >TEAM</span>
+      <span className='primaryText'>ADVISORY BOARD &</span><br />
+      <span className='greenText' >OFFICIAL MANAGEMENT TEAM</span>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -48,7 +48,7 @@ const ManagementTeam = () => {
              <img src={man.image} alt='' className='man-image'/>
              <div className="scroll-card">
                 <span className='primaryText man-name'>{man.name}</span>
-                
+                <span className='greenText man-pos'>{man.position}</span>
              </div>
             </SwiperSlide>
        

@@ -8,6 +8,8 @@ import Survey from './Components/Survey/Survey';
 import Icons from './Components/Icons/Icons';
 import Contact from './Components/Contact/Contact';
 import ManagementTeam from './Components/ManagementTeam/ManagementTeam';
+import GetStarted from './Components/GetStarted/GetStarted';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       < Contact />
       < Icons />
       < ManagementTeam /> 
+      < GetStarted />
+      < Footer />
     </>
   );
 }

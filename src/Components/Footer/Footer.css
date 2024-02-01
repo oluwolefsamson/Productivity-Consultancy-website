@@ -1,0 +1,42 @@
+.f-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(32, 31, 31);
+    height: fit-content;
+    padding: 2rem;
+}
+
+.f-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .row .column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+} */
+
+.row .column1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+    gap: 1rem;
+}
+
+.column1 img {
+    margin-left: 5rem;
+    height: 40px;
+    width: 50px;
+}
+
+.column1 span {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    line-height: 15px;
+
+    
+}

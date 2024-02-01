@@ -1,14 +1,34 @@
 [
+
     {
+      "name": "DR. EZEKIEL OYEBOLA OYEMOMI",
+      "image": "./oyebola.jpeg",
+      "position": "CFed. Perm. Sect. "
+    },
+    {
+      "name": "DR. MUHAMMED BELLO UMAR",
+      "image": "./muhammed.jpeg",
+      "position": "Fed. Perm. Sect. Rtd"
+    },
+    {
+      "name": "DR. WAZIRI AMOS SAMUEL",
+      "image": "./amos.jpeg",
+      "position": "Rtd Fed. Auditor "
+    },
+    
+      {
       "name": "DR. OLUGBENGA ISRAEL BALOGUN",
-      "image": "./bello.jpeg"
+      "image": "./balogun.jpeg",
+      "position": "Chairman"
     },
     {
       "name": "PRINCESS VIC. SEYI OYEWOLE",
-      "image": "./bello.jpeg"
+      "image": "./vic.jpeg",
+      "position": "Member"
     },
     {
       "name": "MR. BELLO ABDULRAZAQ",
-      "image": "./bello.jpeg"
+      "image": "./bello.jpeg",
+      "position": "Member"
     }
   ]
