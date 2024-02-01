@@ -1,6 +1,6 @@
 import React from 'react'
 import './ManagementTeam.css';
-import data from '../../Utils/management.json';
+import data from '../../Utils/Management.json';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/css';
