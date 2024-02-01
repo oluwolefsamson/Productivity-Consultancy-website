@@ -49,8 +49,8 @@ export default function Icons() {
               
              <img src={man.image} alt='' className='man-image'/>
              <div className="scroll-card">
-                <span className='primaryText '>{man.name}</span><br />
-                <span className='greenText'>{man.position}</span><br />
+                <span className='primaryText '>{man.name}</span>
+                <span className='greenText'>{man.position}</span>
                
              </div>
             </SwiperSlide>
