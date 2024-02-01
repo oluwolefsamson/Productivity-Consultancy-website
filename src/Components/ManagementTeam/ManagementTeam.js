@@ -21,7 +21,7 @@ const ManagementTeam = () => {
 
   return (
     <section className='paddings innerWidth m-container'>
-      <span className='primaryText'>THE MANAGEMENT</span><br />
+      <span className='primaryText'>OFFICIAL MANAGEMENT</span><br />
       <span className='greenText' >TEAM</span>
       <Swiper
         effect={'coverflow'}
@@ -47,9 +47,8 @@ const ManagementTeam = () => {
               
              <img src={man.image} alt='' className='man-image'/>
              <div className="scroll-card">
-                <span className='primaryText man-name'>{man.name}</span><br />
-                <span className='greenText man-pos'>{man.position}</span><br />
-                <span className='secondaryText man-detail'>{man.detail}</span>
+                <span className='primaryText man-name'>{man.name}</span>
+                
              </div>
             </SwiperSlide>
        

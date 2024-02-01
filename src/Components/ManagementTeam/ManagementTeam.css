@@ -1,23 +1,10 @@
-#app { height: 100% }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
 
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
 
 .m-container .swiper {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 50px;
+  
+  border-bottom: 5rem;
 }
 
 .m-container .swiper-slide {
@@ -33,9 +20,9 @@ body {
   width: 100%;
 }
 
-.m-container .man-image {
+/* .m-container .man-image {
     border-radius: 100%;
-}
+} */
 
 .m-container .scroll-card {
   display: flex;
@@ -46,32 +33,39 @@ body {
 
 .m-container .man-name {
   font-size: large;
+  margin-top: 1rem;
 }
 
-.m-container  .man-pos {
-  font-size: small;
-  margin-top: -1rem;
-}
-
-.m-container  .man-detail {
-  text-align: center;
-  font-size: 11px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-
-@media (max-width: 640px) {
-  
-
- 
-
-  .m-container  .swiper {
+@media screen and (max-width: 768px) {
+  .m-container .swiper {
+    height: 90vh;
     width: 100%;
+  }
+
+  .m-container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .m-container  .swiper {
+      width: 100%;
+      height: 70vh;
+  }
+
+  .m-container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 40vh;
   }
 
   
 }
+
+
 
 
 
