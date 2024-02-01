@@ -22,7 +22,7 @@ export default function Icons() {
   };
   return (
 
-    <section className='paddings innerWidth icons-head'>
+    <section className='paddings innerWidth i-container'>
     <span className='primaryText'>PRODUCTIVITY & PROFICIENCY </span><br />
     <span className='greenText icons' >ICONS</span>
     

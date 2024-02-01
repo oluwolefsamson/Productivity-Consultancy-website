@@ -3,9 +3,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 8rem 2rem;
+    margin: 4rem 0;
     gap: 2rem;
     flex-wrap: wrap;
+    background-color:  #eeeeff;
+    padding: 3rem 2rem;
 }
 
 .s-container .left-side {

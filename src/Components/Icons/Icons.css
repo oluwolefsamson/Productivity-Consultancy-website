@@ -1,3 +1,7 @@
+.i-container {
+  background-color:  #eeeeff;
+  padding: 2rem;
+}
 
 
 .icons {
@@ -5,14 +9,14 @@
 }
 
 
-.swiper {
+.i-container .swiper {
     display: flex;
     width: 100%;
     height: 100vh;
     margin:0 0 2rem 0;
   }
   
-  .swiper-slide {
+  .i-container .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -32,7 +36,7 @@
     border-radius: 10px;
   }
 
-  .scroll-card {
+  .i-container .scroll-card {
     display: flex;
     flex-direction: column;
     width: 50%;

@@ -19,6 +19,24 @@
       "name": "STEVE ORONSAYE",
       "position": "Ex, HOCSF",
       "image": "./steve.jpg"
+  },
+
+  {
+    "name": "DR. TUNJI OLAOPA",
+    "position": "Chairman FCSC",
+    "image": "./tunji.webp"
+  },
+
+  {
+    "name": "MAHMUD YAHAYALE A",
+    "position": "Ex, HOCSF & SGF",
+    "image": "./mahmud.jpeg"
+  },
+
+  {
+    "name": "DORA AKUNYILI",
+    "position": "Ex. Hon. Min. Info.",
+    "image": "./dora.jpeg"
   }
 
    
