@@ -17,9 +17,28 @@ const Footer = () => {
                 <span><FaPhone size={12} color='green'/>+2348089336666</span>
             </div>
 
-            <div className='column2'>column2</div>
-            <div className='column3'>column3</div>
-            <div className='column4'>column4</div>
+            <div className='column2'>
+                <h3>Other Pages</h3>
+                <span>Home</span>
+                <span>About Us</span>
+                <span>Mission</span>
+                <span>Vision</span>
+                <span>Officials</span>
+            </div>
+            
+
+            <div className='column3'>
+                <h3>Quick Links</h3>
+                <span>Privacy Policy</span>
+                <span>Term of Service</span>
+                <span>Disclaimer</span>
+                <span>Credits</span>
+                <span>FAQ</span>
+            </div>
+        </div>
+
+        <div className='copyright'>
+            <span>Copyright &copy; 2024. All right reserved.</span>
         </div>
     </section>
   )
