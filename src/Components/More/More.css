@@ -72,3 +72,15 @@
         width: 30rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .award .right img{
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .award .right img{
+        width: 20rem;
+    }
+}

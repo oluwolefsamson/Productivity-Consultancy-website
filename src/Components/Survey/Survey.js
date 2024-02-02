@@ -27,7 +27,7 @@ const Survey = () => {
 
             </span>
             <div className='survey-button'>
-                <span>Read More</span>
+                <span><a href='./values'>Read More</a></span>
             </div>
         </div>
 

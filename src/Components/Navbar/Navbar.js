@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [active, setActive] = useState('nav_menu');
@@ -20,11 +21,11 @@ const Navbar = () => {
         <nav className='nav poppins-regular'>
             <a href='#' className='nav_brand'><img src='./logo.png' /></a>
             <ul className={active}>
-                <li className='nav_item'><a href='#' className='nav_link'>Home</a></li>
-                <li className='nav_item'><a href='#' className='nav_link'>About</a></li>
-                <li className='nav_item'><a href='#' className='nav_link'>Mission</a></li>
-                <li className='nav_item'><a href='#' className='nav_link'>Vision</a></li>
-                <li className='nav_item'><a href='#' className='nav_link'>Officials</a></li>
+                <Link to="/">Home</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/values'>Values</Link>
+                <Link to='/contact'>Contact</Link>
+                <Link to='/management'>Management</Link>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
                 <div className='line1'></div>
@@ -33,7 +34,7 @@ const Navbar = () => {
             </div>
 
             <div className='contact'>
-                <span>Contact Us</span>
+                <span><a href='./contact'>Contact Us</a></span>
             </div>
         </nav>
     );

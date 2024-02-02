@@ -29,6 +29,7 @@
     border-radius: 10px 0;
     border: 2px gray solid;
     z-index: 1;
+    line-height: 25px;
 }
 
 .hero-text span:nth-child(1) {
@@ -69,6 +70,7 @@
     .hero-text {
         margin-left: 8rem;
         width: 60%;
+        line-height: 15px;
     }
 
     .hero-text  span:nth-child(1) {

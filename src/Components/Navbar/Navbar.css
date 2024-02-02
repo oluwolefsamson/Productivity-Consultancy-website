@@ -76,7 +76,7 @@ a {
     font-size: small;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     .nav {
         height: 80px;
@@ -104,6 +104,13 @@ a {
 @media screen and (max-width: 450px) {
     .contact {
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 200px) {
+    .nav {
+        width: 80%;
     }
 }
 
