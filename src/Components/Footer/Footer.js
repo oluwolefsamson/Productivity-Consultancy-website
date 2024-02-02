@@ -14,7 +14,7 @@ const Footer = () => {
                 <span><FaLocationDot size={13} color='green'/>M12, MKO Abiola Complex Ogba, Ikeja, Lagos</span>
                 <span><FaLocationPin size={24} color='green'/>Suite B20 Block D Platinum Mega Mall, Jahi District, Abuja 
                         Federal Secretariat Complex Phase II, Basement Cafetarial</span>
-                <span><FaPhone size={12} color='green'/>+2348089336666</span>
+                <span><FaPhone size={12} color='green'/>+23480893366</span>
             </div>
 
             <div className='column2'>
