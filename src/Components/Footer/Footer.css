@@ -114,3 +114,33 @@
         line-height: 20px;  
     }
 }
+
+@media screen and (max-width: 425px) {
+
+    .column2 h3 {
+        font-size: small;
+        
+     }
+  
+ 
+     .column3 h3 {
+         font-size: small;
+     }
+    .column1 span {
+        font-size: x-small;
+    }
+
+    .column2 span {
+        font-size: x-small;
+    }
+
+    .column2 span {
+        font-size: x-small;
+    }
+
+    .f-container .copyright {
+        font-size: x-small;
+    }
+
+
+}
