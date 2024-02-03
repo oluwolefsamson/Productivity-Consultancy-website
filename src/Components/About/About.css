@@ -97,6 +97,11 @@
         width: 20rem;
     }
 
+    .about-text {
+        color: rgb(14, 114, 56);
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
     .v-right {
         align-items: center;
         flex-direction: column;

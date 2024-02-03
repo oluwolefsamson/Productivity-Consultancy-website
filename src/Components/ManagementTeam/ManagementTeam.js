@@ -21,8 +21,8 @@ const ManagementTeam = () => {
 
   return (
     <section className='paddings innerWidth m-container'>
-      <span className='primaryText'>ADVISORY BOARD &</span><br />
-      <span className='greenText' >OFFICIAL MANAGEMENT TEAM</span>
+      <span className='first-span'>ADVISORY BOARD &</span><br />
+      <span className='second-span' >OFFICIAL MANAGEMENT TEAM</span>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

@@ -28,7 +28,7 @@
     flex-direction: column;
   }
 
-  .i-container span {
+  .i-container span{
     margin-left: 2rem;
   }
   
@@ -94,8 +94,8 @@
     }
 
     .swiper-slide img {
-      width: 70%;
-      height: 90vh;
+      width: 60%;
+      height: 45vh;
     }
   }
 
