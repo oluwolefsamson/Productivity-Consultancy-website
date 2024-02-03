@@ -32,6 +32,10 @@
   justify-content: center;
 }
 
+.m-container span {
+  margin-left: 4rem;
+}
+
 .m-container .man-image {
   height: 60vh;
   border-radius: 20%;

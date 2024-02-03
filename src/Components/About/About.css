@@ -8,10 +8,13 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 5rem;
-    
-    
-    
-    
+      
+}
+
+.about-text {
+    color: rgb(14, 114, 56);
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .image-container1 {
@@ -39,8 +42,8 @@
 }
 
 .v-right span:nth-child(3) {
-    line-height: 2rem;
-    font-size: small;
+    line-height: 2.5rem;
+    font-size: medium;
 }
 .accordion {
     margin-top: 2rem;

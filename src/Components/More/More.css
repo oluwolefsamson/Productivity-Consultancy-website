@@ -1,6 +1,8 @@
 .m-container {
     width: 100%;
     background: white;
+    background-color:  #eeeeff;
+    padding: 2rem 0;
     
 }
 
@@ -32,7 +34,7 @@
 .text span:nth-child(2) {
     display: flex;
     align-items: flex-start;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     line-height: 25px;
 }
 

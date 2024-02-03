@@ -23,7 +23,7 @@ function App() {
       < Survey />
       < Contact />
       < Icons />
-      < More />
+      {/* < More /> */}
       < ManagementTeam /> 
       < GetStarted />
       < Footer />

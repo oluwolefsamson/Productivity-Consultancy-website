@@ -128,8 +128,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
   }
 
   
@@ -186,12 +185,14 @@
   .primaryText {
     color: #1f3e72;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3.2rem;
+    
   }
   
   .secondaryText {
     color: rgb(140 139 139);
-    font-size: 1rem;
+    font-size: 1.7rem;
+    line-height: 30px;
   }
   .orangeText {
     color: orange;
@@ -201,7 +202,7 @@
 
   .greenText {
     color: rgb(14, 114, 56);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
   }
 

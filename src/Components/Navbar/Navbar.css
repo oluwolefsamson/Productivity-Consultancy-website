@@ -71,6 +71,11 @@ a {
     
 }
 
+.contact:hover {
+    border: 2px blue solid;
+    background: transparent;
+}
+
 .contact span {
     color: white;
     font-size: small;

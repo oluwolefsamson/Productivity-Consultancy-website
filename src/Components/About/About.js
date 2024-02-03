@@ -65,9 +65,9 @@ const About = () => {
                                         <div className="flexCenter icon">
                                             {item.icon}
                                         </div>
-                                        <span className='greenText'>{item.heading}</span>
+                                        <span className='about-text'>{item.heading}</span>
                                         <div className="flexCenter icon">
-                                            <MdOutlineArrowDropDown size={20}/>
+                                            <MdOutlineArrowDropDown size={25}/>
                                         </div>
                                     </AccordionItemButton>
                                 </AccordionItemHeading>

@@ -20,14 +20,11 @@
 }
 
 .s-container .left-side span:nth-child(1) {
-    line-height: 25px;
+    line-height: 40px;
 }
 
 
-.s-container .left-side span:nth-child(2) {
-    font-size: 13px;
-    line-height: 20px;
-}
+
 
 
 .s-container .right-side>img {
@@ -81,6 +78,10 @@
 }
 
 @media screen and (max-width: 430px) {
+
+    .s-container .left-side span:nth-child(1) {
+        line-height: 30px;
+    }
 
     .s-container {
         margin-top: 0;

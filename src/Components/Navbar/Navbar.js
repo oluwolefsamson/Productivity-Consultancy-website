@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <nav className='nav poppins-regular'>
-            <a href='#' className='nav_brand'><img src='./logo.png' /></a>
+            <a href='/' className='nav_brand'><img src='./logo.png' /></a>
             <ul className={active}>
                 <Link to="/">Home</Link>
                 <Link to='/about'>About</Link>

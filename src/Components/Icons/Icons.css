@@ -27,6 +27,10 @@
     align-items: center;
     flex-direction: column;
   }
+
+  .i-container span {
+    margin-left: 2rem;
+  }
   
   .swiper-slide img {
     display: block;

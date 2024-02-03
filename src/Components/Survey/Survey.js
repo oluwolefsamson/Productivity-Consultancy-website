@@ -17,13 +17,7 @@ const Survey = () => {
             governance implies efficient and effective public administration. National Policies and 
             Sound Management of all resources. It calls for the well-being, provide core services to 
             its people and then augument these resources and services, act as catalyst of change and 
-            guide the various force in a society towards harmony.(Amoako K. Y. 1997). Besides, good 
-            governance implies ruling on the bases of equity and social justice and an end to corruption, 
-            nepotism and political manipulation of public institutions. It is only when citizens have the 
-            believe that government operates on their behalf, in open and accountable manners will 
-            government be able to obtain their willing cooperation in mobilizing resources for 
-            development. In the creating and sustaining an environment which fosters strong and 
-            equitable development and an essential complement to sound economic policies.
+            guide the various force in a society towards harmony.(Amoako K. Y. 1997). 
 
             </span>
             <div className='survey-button'>
