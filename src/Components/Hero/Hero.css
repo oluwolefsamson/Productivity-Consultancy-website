@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     margin-top: -40rem;
-    margin-left: 8rem; 
+    margin-left: 10rem; 
     background-color: rgb(73, 75, 77);
     padding: 2rem;
     width: 80%;
@@ -80,6 +80,6 @@
     }
 
     .hero-text span:nth-child(2) {
-        font-size: 5px;
+        font-size: 8px;
     }
 }
