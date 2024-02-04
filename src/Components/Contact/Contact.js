@@ -23,7 +23,7 @@ const Contact = () => {
         <div className="flexColStart c-left">
         <div data-aos="fade-right"><span className='greenText'>Our Contacts</span></div>
         <div data-aos="fade-left"><span className='primaryText'>Conveniently Reachable</span></div>
-            <span className='secondaryText'>You can kindly reach us through the provided buttons below </span>
+            <span className='secondaryText'>You can kindly reach us through the provided buttons below. </span>
 
             <div className="flexStart contactModes">
                 {/* first row */}

@@ -116,5 +116,9 @@
        .c-container1{
            padding-left: 1rem;
        }
+
+       .c-left span:nth-child(3) {
+        width: 100%;
+       }
     
    }
