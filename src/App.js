@@ -11,6 +11,7 @@ import ManagementTeam from './Components/ManagementTeam/ManagementTeam';
 import GetStarted from './Components/GetStarted/GetStarted';
 import Footer from './Components/Footer/Footer';
 import More from './Components/More/More';
+import Overview from './Components/Overview/Overview';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       < AboutCard />
       < Survey />
       < Contact />
+      < Overview />
       < Icons />
       {/* < More /> */}
       < ManagementTeam /> 

@@ -6,6 +6,8 @@ import About from '../../Components/About/About';
 import AboutCard from '../../Components/AboutCard/AboutCard';
 import Footer from '../../Components/Footer/Footer'
 import './AboutPage.css'
+import Overview from '../../Components/Overview/Overview';
+import GetStarted from '../../Components/GetStarted/GetStarted';
 
 const AboutPage = () => {
   return (
@@ -15,6 +17,8 @@ const AboutPage = () => {
         < Company />
         < About />
         < AboutCard />
+        < Overview />
+        < GetStarted />
         < Footer />
     </div>
   )

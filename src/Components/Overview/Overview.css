@@ -1,0 +1,31 @@
+.o-container {
+    padding: 4rem;
+}
+
+.o-container .first-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.o-container .first-column span:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.o-container .second-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.o-container .third-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+
