@@ -73,7 +73,7 @@
 
     .s-container .right-side>img {
         height: 30vh;
-        width: 30rem;
+        width: 100%;
     }
 }
 
