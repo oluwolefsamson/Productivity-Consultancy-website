@@ -82,7 +82,7 @@ const Contact = () => {
                                 <span className='secondaryText'></span>
                             </div>
                         </div>
-                       <a href='#'><button>Send Mail</button></a>
+                       <a href='mailto:productivityproficiencynigeria@gmail.com'><button>Send Mail</button></a>
                     </div>
                 </div>
 

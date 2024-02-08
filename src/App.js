@@ -19,16 +19,15 @@ function App() {
       < Navbar />
       < Hero />
       < Company />
-      < About />
+      < About /> 
       < AboutCard />
       < Survey />
       < Contact />
       < Overview />
       < Icons />
-      {/* < More /> */}
       < ManagementTeam /> 
       < GetStarted />
-      < Footer />
+      < Footer /> 
       
     </>
   );

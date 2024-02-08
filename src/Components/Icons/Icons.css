@@ -84,33 +84,35 @@
 
   @media screen and (max-width: 768px) {
 
-    .mySwiper {
+  
+    .i-container .mySwiper {
       height: 100vh;
     }
-    .swiper {
+    .i-container .swiper {
       display: flex;
       width: 100%;
       height: 100vh;
     }
 
-    .swiper-slide img {
+    .i-container .swiper-slide img {
       width: 60%;
-      height: 45vh;
+      height: 70vh;
     }
   }
 
   @media screen and (max-width: 430px) {
     
-    .mySwiper {
-      height: 40vh;
+    .i-container .mySwiper {
+      height: 65vh;
+      width: 100%;
     }
-        .swiper-slide img {
-      height: 35vh;
+      .i-container  .swiper-slide img {
+      height: 28vh;
     }
 
     .i-container .swiper {
       
-      height: 60vh;
+      height: 40vh;
      
     }
   }

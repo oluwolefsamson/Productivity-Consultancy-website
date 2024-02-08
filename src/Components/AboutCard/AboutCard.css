@@ -6,7 +6,6 @@
 .aboutcard-content {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 1rem;
    
    
@@ -98,12 +97,12 @@
 
 
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
 
     
     .aboutcard-content {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 2rem;
         margin-bottom: 0;
     }

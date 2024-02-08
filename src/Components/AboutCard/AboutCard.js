@@ -19,7 +19,7 @@ const AboutCard = () => {
               ADB, AU, ICC, ICS, IMF, ECOWAS, and local institutions, Presidency and the 
               NASS as the case may be. This is for references, records, policy, formulation 
               and implementation.
-</span>
+            </span>
           </div>
 
           <div className='our-mission'>
